@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name = "ExpoKit"
-  s.version = "2.2.2"
+  s.version = "2.2.4"
   s.summary = 'ExpoKit'
   s.description = 'ExpoKit allows native projects to integrate with the Expo SDK.'
   s.homepage = 'http://docs.expo.io'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform = :ios, "9.0"
   s.default_subspec = "Core"
-  s.source = { :git => "http://github.com/expo/expo.git" }
+  s.source = { :git => "git@github.com:manoj-nama/expo.git" }
 
   s.subspec "Core" do |ss|
     ss.source_files = "ios/Exponent/**/*.{h,m}"
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     ss.dependency 'FBSDKShareKit', '~> 4.28'
     ss.dependency 'Fabric', '~> 1.6'
     ss.dependency 'GoogleSignIn', '~> 3.0'
-    ss.dependency 'GoogleMaps', '~> 2.2.0'
+    #ss.dependency 'GoogleMaps', '~> 2.2.0'
     ss.dependency 'lottie-ios', '~> 2.1.3'
     ss.dependency 'GPUImage', '~> 0.1.7'
     ss.dependency 'Branch', '~> 0.14.12'

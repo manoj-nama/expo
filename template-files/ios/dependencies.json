@@ -44,10 +44,6 @@
     "version": "~> 3.0"
   },
   {
-    "name": "GoogleMaps",
-    "version": "~> 2.2.0"
-  },
-  {
     "name": "lottie-ios",
     "version": "~> 2.1.3"
   },
